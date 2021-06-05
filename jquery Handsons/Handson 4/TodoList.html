@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Document</title>
+    <style>
+        #container {
+            border: 2px solid red;
+            width: 300px;
+            padding: 15px;
+        }
+
+        span {
+            color: blue;
+        }
+
+        #p1 {
+            font-size: 15px;
+            width: 500px;
+            color: blue;
+            margin: 10px 0;
+        }
+    </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="TodoList.js"></script>
+</head>
+
+<body>
+    <div id="container">
+        <h1>To-Do List</h1>
+        <table>
+            <tr>
+                <td>
+                    <label>Task:</label>
+                </td>
+                <td>
+                    <input id="task" type="text">
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <input id="btn" type="submit" value="Add task">
+                </td>
+            </tr>
+        </table><br>
+        <span>Today's task are:</span>
+        <p id="p1"></p>
+    </div>
+</body>
+
+</html>
