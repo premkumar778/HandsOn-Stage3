@@ -1,8 +1,0 @@
--------------------------------------------------------------------------------
-Test set: com.cts.junitlearn.PortfolioTest
--------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.005 s <<< FAILURE! - in com.cts.junitlearn.PortfolioTest
-com.cts.junitlearn.PortfolioTest.testGetMarketValue  Time elapsed: 0.002 s  <<< ERROR!
-java.lang.NoClassDefFoundError: Could not initialize class org.mockito.internal.creation.cglib.ClassImposterizer$3
-	at com.cts.junitlearn.PortfolioTest.setUp(PortfolioTest.java:22)
-
